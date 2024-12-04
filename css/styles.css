@@ -6,8 +6,27 @@
 }
 
 body {
-    background-color: #232323;
+    background-color: #191919;
     color: #dedede;
     font-family: "Roboto", sans-serif;
+}
+
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+
+/* HERO REGION */
+
+.hero_region {
+    min-height: 12rem;
+    height: auto;
+    margin: auto;
+    text-align: center;
 }
 
