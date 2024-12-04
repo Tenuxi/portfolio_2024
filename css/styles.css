@@ -93,11 +93,39 @@ body {
     line-height: 1.5rem;
 }
 
+.info_text {
+    max-width: 600px;
+    margin: auto;
+}
+
 
 /* CODING SPECS */
 
 .coding_languages {
     max-width: 600px;
     margin: auto;
+    text-align: center;
+}
+
+.flex {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+}
+
+.flex p {
+    padding: 15px 30px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+.footer {
+    margin-top: 4rem;
     text-align: center;
 }
