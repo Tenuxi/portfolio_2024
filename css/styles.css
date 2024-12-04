@@ -69,8 +69,6 @@ body {
 
 .zoom {
     transition: transform .2s;
-    /* width: 200px;
-    height: 200px; */
     margin: 0 auto;
 }
 
@@ -82,4 +80,24 @@ body {
     max-width: 300px;
     width: 100%;
     padding-bottom: 20px;
+}
+
+
+/* INFO */
+
+.info {
+    text-align: center;
+    max-width: 768px;
+    padding: 3rem 15px;
+    margin: auto;
+    line-height: 1.5rem;
+}
+
+
+/* CODING SPECS */
+
+.coding_languages {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
 }

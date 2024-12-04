@@ -1,3 +1,7 @@
+p {
+    color: #b1aeae;
+}
+
 a {
     text-decoration: none;
     font-size: 1.125rem;
@@ -5,6 +9,19 @@ a {
     color: #fefefe;
 }
 
-.reference h2 {
+h1 {
     margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+h3 {
+    margin-bottom: 1rem;
+}
+
+ul li {
+    list-style: none;
+    color: #b1aeae;
 }
