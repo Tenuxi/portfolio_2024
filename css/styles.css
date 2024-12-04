@@ -31,6 +31,16 @@ body {
     height: auto;
     margin: auto;
     text-align: center;
+    padding: 3rem 0;
+}
+
+.own_img {
+    padding: 0 0 3rem 0;
+}
+
+.own_img img{
+    max-width: 220px;
+    border-radius: 95%;
 }
 
 
