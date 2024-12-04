@@ -10,10 +10,12 @@ a {
 }
 
 h1 {
+    font-size: 2.5rem;
     margin-bottom: 2rem;
 }
 
 h2 {
+    font-size: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -24,4 +26,8 @@ h3 {
 ul li {
     list-style: none;
     color: #b1aeae;
+}
+
+.header h2 {
+    margin: 0;
 }
