@@ -18,6 +18,9 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
+    padding: 10px 30px;
+    border-bottom: 2px #343434 solid;
+    margin-bottom: 2rem;
 }
 
 
@@ -30,3 +33,43 @@ body {
     text-align: center;
 }
 
+
+/* REFERENCE */
+
+.reference {
+    max-width: 1280px;
+    width: 100%;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.refe {
+    max-width: 325px;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 35px 25px;
+    line-height: 1.5rem;
+}
+
+.zoom {
+    transition: transform .2s;
+    /* width: 200px;
+    height: 200px; */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.refe img {
+    max-width: 300px;
+    width: 100%;
+    padding-bottom: 20px;
+}
