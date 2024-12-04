@@ -1,18 +1,20 @@
 .wrapper {
-	background-color: transparent;
-	height: 130px;
+	background-color: #232323;
+	height: 230px;
 	overflow: hidden;
 	position: relative;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	padding: 0 20px;
+	border-top: #343434 2px solid;
+	border-bottom: #343434 2px solid;
 }
 
 .wrapper:before, .wrapper:after {
 	content: "";
 	position: absolute;
-	height: 130px;
+	height: 230px;
 	width: 150px;
 	z-index: 2;
 }
@@ -35,7 +37,7 @@
 }
 
 .wrapper .logo {
-	width: 150px;
+	width: 250px;
 }
 
 .wrapper .logo img {
