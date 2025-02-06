@@ -52,3 +52,30 @@
 		transform: translateX(calc(-150px * 5));
 	}
 }
+
+
+/* No slider */
+
+.coding {
+	background-color: #232323;
+	min-height: 230px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: #343434 2px solid;
+	border-bottom: #343434 2px solid;
+	flex-wrap: wrap;
+}
+
+.coding .logo {
+	width: 150px;
+	text-align: center;
+}
+
+.coding .logo img {
+	height: 90px;
+	padding: 20px 0;
+}
