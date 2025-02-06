@@ -101,6 +101,19 @@ body {
     margin: auto;
 }
 
+.downloadable {
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+    margin: auto;
+}
+
+.downloadable img {
+    max-width: 90px;
+}
+
 
 /* CODING SPECS */
 
